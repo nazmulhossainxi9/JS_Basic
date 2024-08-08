@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:focus, .btn:active, .btn:active:focus{
+    box-shadow: none;
+}
+
+ol li {
+    color: white;
+}
+.btn{
+    width: 120px;
+}
+.title{
+    color: #ffc107;
+}
+
+/* 1 starts */
+.instruction{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.show{
+    margin: 0 0 0 20px;
+}
+#s_text{
+    color: #ffc107;
+}
+
+/* 2 starts */
+#date{
+    color: #0dcaf0;
+}
+
+/* 3 starts */
+#name{
+    color: #dc3545;
+}
+
+/* 4 starts */
+.text, #hide{
+    color: rgb(3, 197, 0);
+}
+.btn-success{
+    color: black;
+    background-color: rgb(3, 197, 0) ;
+}
+.btn-success:hover{
+    color: black;
+    background-color: rgb(3, 197, 0) ;
+}
+.btn-success:focus{
+    color: black;
+    background-color: rgb(3, 197, 0) ;
+}

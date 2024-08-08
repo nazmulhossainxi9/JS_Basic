@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- basic links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1 class="text-center">JavaScript Click Event</h1>
+        </div>
+        <div class="js_test">
+            <ol>
+                <li>
+                    <div class="show">
+                        <p class="instruction">Click the button to show the <b class="text-warning">"TEXT"</b></p>
+                        <button type="button" class="btn btn-warning" onclick="showText()">Show Text</button>
+                        <h5 id="s_text"></h5>
+                    </div>    
+                </li>
+                <li>
+                    <div class="show">
+                        <p class="instruction">Click the button to show the <b class="text-info">"DATE & TIME"</b></p>
+                        <button type="button" class="btn btn-info" onclick="dateShow()">Show Text</button>
+                        <h5 id="date"></h5>
+                    </div>    
+                </li>
+                <li>
+                    <div class="show">
+                        <p class="instruction">Click the button to watch my <b class="text-danger">"NAME"</b></p>
+                        <button type="button" class="btn btn-danger" onclick="myName()">Watch Name</button>
+                        <h5 id="name"></h5>
+                    </div>    
+                </li>
+                <li>
+                    <div class="show">
+                        <p class="instruction">Click the button to hide the <b class="text">"TEXT"</b></p>
+                        <button type="button" class="btn btn-success mbtn" onclick="hideText()">Hide Text</button>
+                        <h5 id="hide">Hide me by clicking the button</h5>
+                    </div>
+                </li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+    </div>
+    
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
